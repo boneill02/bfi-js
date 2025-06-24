@@ -8,6 +8,10 @@ brainfuck, written in JavaScript.
 * [Esolang Wiki](https://esolangs.org/wiki/Brainfuck)
 * [brainfuck.org](https://brainfuck.org/)
 
+## Bugs
+
+If you find a bug, submit an issue, PR, or email me with a description and/or patch.
+
 ## License
 
 Copyright (c) 2022 Ben O'Neill <ben@oneill.sh>. This work is released under the
