@@ -1,3 +1,13 @@
+/*
+ * @file bfi.js
+ * @brief brainfuck interpreter
+ * @author Ben O'Neill <ben@oneill.sh>
+ *
+ * @copyright Copyright (c) 2022-2025 Ben O'Neill <ben@oneill.sh>.
+ * This work is released under the terms of the MIT License. See
+ * LICENSE.
+ */
+
 var prog = [], tape = [], loops = [], input = [];
 var tp = 0, ip = 0, inp = 0;
 const TAPESIZE = 30000;

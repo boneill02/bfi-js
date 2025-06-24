@@ -10,5 +10,5 @@ brainfuck, written in JavaScript.
 
 ## License
 
-Copyright (c) 2022 Ben O'Neill <ben@oneill.sh>. Licensed under the
-MIT License. See LICENSE.
+Copyright (c) 2022 Ben O'Neill <ben@oneill.sh>. This work is released under the
+terms of the MIT License. See [LICENSE](LICENSE) for the license terms.
