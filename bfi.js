@@ -8,14 +8,15 @@
  * LICENSE.
  */
 
-let prog = [],
-    tape = [],
-    loops = [],
-    input = [];
-let tp = 0,
-    ip = 0,
-    inp = 0;
 const TAPESIZE = 30000;
+
+let prog = [], // Program instructions
+    tape = [], // Memory tape
+    loops = [], // Array of [start, end] pairs for loop instructions
+    input = []; // Input string from DOM
+let tp = 0, // Tape pointer
+    ip = 0, // Instruction pointer
+    inp = 0; // Input pointer
 
 /**
  * Finds matching pairs of '[' and ']' instructions in the brainfuck program.
