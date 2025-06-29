@@ -163,4 +163,6 @@ function run() {
         eval(prog[ip]);
         ip++;
     }
+
+    document.getElementById("output").style.visibility = "visible";
 }
